@@ -5,6 +5,3 @@ KTS is abbreviation for "Kill Time Secretary", a helper program written in Pytho
 
 
 
-
-
-
