@@ -2,17 +2,17 @@
 import sys
 sys.path.append('./src')
 from distutils.core import setup
-from pyempty import __version__
+from kts import __version__
 
-setup(name='pyempty',
+setup(name='kts',
       version=__version__,
-      description='empty python project template',
+      description='Kill Time Secretary',
       long_description=open("README.md").read(),
-      author='onlytiancai',
-      author_email='onlytiancai@gmail.com',
-      packages=['pyempty'],
-      package_dir={'pyempty': 'src/pyempty'},
-      package_data={'pyempty': ['stuff']},
+      author='chairman',
+      author_email='chairman.nirvana@dont.contact.me',
+      packages=['kts'],
+      package_dir={'kts': 'src/kts'},
+      package_data={'kts': ['stuff']},
       license="Public domain",
       platforms=["any"],
-      url='https://github.com/onlytiancai/pyempty')
+      url='https://github.com/chairman-nirvana/KTS.git')
